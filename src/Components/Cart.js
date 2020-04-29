@@ -23,7 +23,7 @@ function Cart(props) {
         {props.ListItems.map(
           (element) =>
             element.isInCart && (
-              <div className="container">
+              <div className="container" key={element.id}>
                 <div className="row" style={{ width: "100%" }}>
                   <div className="colimg">
                     <img
@@ -34,9 +34,7 @@ function Cart(props) {
                     />
                   </div>
                   <div className="colname">{element.name}</div>
-                  <div className="coldesc">
-                    {element.description.slice(0, 30)}...
-                  </div>
+                  <div className="coldesc"></div>
                   <div
                     className="colquantity"
                     style={{ display: "flex", alignItems: "center" }}
@@ -78,8 +76,8 @@ function Cart(props) {
         <Button variant="secondary" onClick={props.openCartModal}>
           Close
         </Button>
-        <span className='total'>Total: {x}</span> 
-        <Button variant="primary">Pay</Button>
+        <span className="total">Total: {x}</span>
+        <Button variant="primary">Buy</Button>
       </div>
     </Modal>
   );

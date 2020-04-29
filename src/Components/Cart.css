@@ -1,3 +1,12 @@
+.container {
+  margin-top: 25px;
+  border: 1px dashed;
+  height: 100px !important;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .colimg {
   width: 15%;
   display: flex;
@@ -5,12 +14,13 @@
   justify-content: center;
 }
 .colname {
-  width: 15%;
+  width: 30%;
+  height: 80px;
   display: flex;
   align-items: center;
 }
 .coldesc {
-  width: 25%;
+  width: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +49,7 @@
   justify-content: center;
 }
 .coltrash {
-  width: 15%;
+  width: 5%;
   display: flex;
   align-items: center;
   justify-content: center;

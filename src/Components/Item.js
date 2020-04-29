@@ -10,9 +10,9 @@ function Item(props) {
     item.name.toUpperCase().includes(props.input.toUpperCase())
   );
   return (
-    <div className="container">
+    <div className="items-container">
       {filterdItems.map((element) => (
-        <Card
+        <Card key={element.id}
           style={{
             width: "18rem",
             height: "42,125rem",
@@ -22,20 +22,20 @@ function Item(props) {
         >
           <Link to={`/description/${element.name}`}>
             <Card.Img
-              height="420px"
+              height="300px"
               width="285px"
               variant="top"
               src={element.image}
             />
           </Link>
           <Card.Body>
-            <Card.Title>{element.name}</Card.Title>
-            <Card.Text>{element.description}</Card.Text>
+            <Card.Title>{element.name.slice(0, 20)}</Card.Title>
+            <Card.Text>{element.description.slice(0, 30)}</Card.Text>
+            <Card.Text></Card.Text>
             <Button
-              variant={!element.isInCart ? "primary" : "danger"}
+              variant={!element.isInCart ? "success" : "danger"}
               onClick={() => props.addToCart(element.id)}
             >
-              {" "}
               {!element.isInCart ? "Add To Cart" : "Remove"}
             </Button>
           </Card.Body>

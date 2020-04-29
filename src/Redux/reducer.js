@@ -4,62 +4,66 @@ const InitialState = {
     {
       id: 1,
       image:
-        "https://rolex.bucherer.com/img/products/listing/sky-dweller-m326935-0007-680x760.jpg",
-      name: "watch",
+        "https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2020/03/02/source-img/20200302163009_52654.jpg",
+      name: "Amazfit Bip S Smart Watch",
       description:
-        "La Rolex Oyster Perpetual Submariner est une montre à mouvement automatique fabriquée par Rolex",
-      price: 400,
+        "The Amazfit Bip S with only 31g super lightweight body, which offers you a better wearing experience. The combination of beauty and technology makes it more cost-effective than ever before.",
+      price: 80,
       isInCart: false,
       quantity: 1,
     },
     {
       id: 2,
-      image: "https://images.sportsdirect.com/images/products/37716021_l.jpg",
-      name: "teeShirt-Barça",
+      image:
+        "https://monkeyecho.com/wp-content/uploads/usams-3-in-1-portable-multifunctional-10w-wireless-charging-sterilizer.jpg",
+      name: "USAMS 3 in 1",
       description:
-        "Maillot Match Nike Barça Third Griezmann 2019/20, coloris Bleu,Tissu respirant Confort maximisé Mouvements naturels,Flocage officiel.",
-      price: 250,
+        "Multifunction & Portable, Medical ultraviolet process, Ultraviolet sterilization only takes 30mins, Ozone sterilization, 10W wireless charging put down and charge and CE/FCC/ROHS quality certification.",
+      price: 45,
       isInCart: false,
       quantity: 1,
     },
     {
       id: 3,
       image:
-        "https://cdn1.jolicloset.com/img4/detail4b/2019/05/126405-1/sacs-a-main-gucci.jpg",
-      name: "sac gucci",
-      description: "Sac à épaule Gucci 1955 avec détail Mors",
-      price: 1500,
+        "https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2020/04/13/goods_img_big-v2/20200413103452_5e93cfcc89d5a.jpg",
+      name: "X96 X96Q Android 10.0 Smart 4K TV Box",
+      description:
+        "X96Q Smart TV Box is a practical home smart media player. Android 10.0 gives you the ability to run virtually any Android App on your TV. The powerful Allwinner H313 Quad Core ARM Cortex A53 processor with the Penta core Mali-G31 graphics chip provides stellar performance for high definition video playback.",
+      price: 30,
       isInCart: false,
       quantity: 1,
     },
     {
       id: 4,
       image:
-        "https://images.frandroid.com/wp-content/uploads/2019/04/iphone-8-plus-1.png",
-      name: "phone",
-      description: "iphone 8 2018 noir 128GB modèle 2018/2019",
-      price: 800,
+        "https://cdn02.plentymarkets.com/zkz64ybyye6y/item/images/2618/full/2618--Bauchroller-II--005.jpg",
+      name: "Abdominal Wheel",
+      description:
+        "Abdominal Wheel Non-skid Tire Skin Coiling Wheel Mute Single-wheel Abdominal Bodybuilder Fitness Exercise Abdominal Muscle Roller",
+      price: 20,
       isInCart: false,
       quantity: 1,
     },
     {
       id: 5,
       image:
-        "https://psmedia.playstation.com/is/image/psmedia/ps4-overview-screen-02-eu-06sep16?$MediaCarousel_Original$",
-      name: "playstation",
-      description: "Console playstation 4 noir avec 2 manettes ",
-      price: 350,
+        "https://images-na.ssl-images-amazon.com/images/I/71gK7VlDnGL._AC_SL1280_.jpg",
+      name: "VicTsing MM057 Wireless Mouse",
+      description:
+        "Comfortable Ergonomic Design, After thousands of samples of palm data, we designed this ergonomic mouse. The mouse has a streamlined arc and thumb rest to help reduce the stress caused by prolonged use of the mouse. The side pits help reduce slippage and maximize your feeling of use!",
+      price: 13,
       isInCart: false,
       quantity: 1,
     },
     {
       id: 6,
       image:
-        "https://contents.mediadecathlon.com/p1683148/k$f9501129707a537c5ac177bd5d4f973d/sq/BALLON+DE+BASKETBALL+NBA+ALL+STAR+SPALDING+TAILLE+7.jpg",
-      name: "basketball",
+        "https://imgaz2.staticbg.com/thumb/large/oaupload/banggood/images/E2/66/4b160ce3-e010-41b8-9de0-c4d520563708.jpg",
+      name: "Digital Thermometer Infrared",
       description:
-        " ballon de sport de forme sphérique utilisé au basket-ball. Originellement constitué de huit pièces de cuir cousues autour d'une chambre à air,",
-      price: 300,
+        "Multi-fuction Baby / Adult Digital Thermometer Infrared Forehead Body Thermometer Gun Non-contact Temperature Measurement Device - Multi",
+      price: 60,
       isInCart: false,
       quantity: 1,
     },
@@ -67,99 +71,44 @@ const InitialState = {
       id: 7,
       isInCart: false,
       image:
-        "https://prodimage.images-bn.com/pimages/9780345535528_p0_v2_s1200x630.jpg",
-      name: "Books",
-      description: "paquet de livres de la série Game of thrones",
-      price: 420,
+        "https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/04/09/goods_img_big-v1/20190409103828_72660.jpg",
+      name: "SOLOVE USB Charging Clip Electric Fan",
+      description:
+        "360° free rotation: Refreshing and comfortable at any angle. Comes with a high-elastic clip-on base for a stable, non-slip, free hands",
+      price: 22,
       quantity: 1,
     },
     {
       id: 8,
       isInCart: false,
       image:
-        "https://images-na.ssl-images-amazon.com/images/I/615xdmxefEL._AC_SX425_.jpg",
-      name: "Vélo",
-      description: "Vélo classique Orbita classic H26 1 ",
-      price: 250,
+        "https://3q87le1gsko01ibim33e4wib-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/cover-swim-face-mask-e1587669392205.jpg",
+      name: "Face Mask UV",
+      description:
+        "Made of 100% cotton, breathable, windproof, sweat absorbing, comfortable, skin friendly，Very strechy. Ear strap is very strechy so you can enlarge the size.",
+      price: 15,
       quantity: 1,
     },
     {
       id: 9,
       isInCart: false,
       image:
-        "https://contents.mediadecathlon.com/p1282840/k$86ed63066c1359912d847f3d0648375a/sq/Gants+de+boxe+KPOWER+100+confirm+s+noirs.jpg",
-      name: "Gants de box",
-      description: "paire de Gant de box anglaise Adidas",
-      price: 100,
+        "https://i.pinimg.com/474x/d6/5d/9f/d65d9fd624a501792c2404aef672a0c7.jpg",
+      name: "Tent Person",
+      description:
+        "Specially designed to offer privacy you need at your campground, the Portable Outdoor Pop-up Toilet Dressing Fitting Room Privacy Shelter Tent is ideal for building a fitting room, a shower or bathroom booth, a restroom or other temporary shelters outdoors.",
+      price: 33,
       quantity: 1,
     },
     {
       id: 10,
       isInCart: false,
       image:
-        "https://image.darty.com/gros_electromenager/micro_ondes-micro_ondes/micro_ondes_compact/brandt_se2612b_noir_s0207133212858_1271145000646.jpg",
-      name: "Micro Onde",
-      description: "Micro ondes Brandt SE261B noir",
-      price: 80,
-      quantity: 1,
-    },
-    {
-      id: 11,
-      isInCart: false,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/61%2BrPTuipLL._AC_SY450_.jpg",
-      name: "Aspirateur",
-      description: "Deik Aspirateur, 800W Aspirateur sans Sacs Cyclonique",
-      price: 60,
-      quantity: 1,
-    },
-    {
-      id: 12,
-      isInCart: false,
-      image:
-        "https://www.sportsystem.fr/35652-large_default/pure-drive-lite-2018.jpg",
-      name: "Raquette Tennis",
-      description: "raquette Babolat drive Lite 265ep",
-      price: 45,
-      quantity: 1,
-    },
-    {
-      id: 13,
-      isInCart: false,
-      image:
-        "https://www.technopro-online.com/40005/jeux-ps4-sony-fifa-20-fifa-2020.jpg",
-      name: "fifa 20",
-      description: "jeux de console ps4 fifa 2020",
-      price: 96,
-      quantity: 1,
-    },
-    {
-      id: 14,
-      isInCart: false,
-      image:
-        "https://vendo.ma/images/caisse-a-outils-et-rengement-vide-boite-a-outils-16-pour-ranger-vos-materiel-de-bricolage-prix-maroc-jumia-no965hl0pqnjxnafamz",
-      name: "Matériel de bricolage ",
-      description: "Matériel de bricolage + boite a outils",
-      price: 180,
-      quantity: 1,
-    },
-    {
-      id: 15,
-      isInCart: false,
-      image:
-        "https://www.tunisiatech.tn/3827-large_default/pc-gamer-msi-gf63-thin-9sc-897xfr.jpg",
-      name: "pc Gamer",
-      description: "PC Gamer MSI GF63 THIN 9SC-897XFR",
-      price: 977,
-      quantity: 1,
-    },
-    {
-      id: 16,
-      isInCart: false,
-      image: "https://static.mytek.tn/img/p/6/6/0/4/7/66047-large_default.jpg",
-      name: "Rasoire électrique",
-      description: "Rasoir électrique PHILIPS AquaTouch s5420-06 Bleu",
-      price: 57,
+        "https://img.alicdn.com/imgextra/i2/2274037852/TB2TZfqX00opuFjSZFxXXaDNVXa_!!2274037852.jpg_640x640q90.jpg",
+      name: "Carbon Wang 9.8 Table Tennis",
+      description:
+        "Each layer of wood-containing nano-carbon and carbon powder are glue synthesis, 2.7 layer of pure wood structure, more robust.",
+      price: 22,
       quantity: 1,
     },
   ],

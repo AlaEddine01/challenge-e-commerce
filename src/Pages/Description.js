@@ -9,11 +9,17 @@ function Description(props) {
       {props.ListItems.map(
         (element) =>
           element.name === props.match.params.id && (
-            <Card className="text-center" >
-              <Card.Header>Description</Card.Header>
-              <Card.Body >
-                <Card.Title>{element.name}</Card.Title>
-                <img width="400px" height="400px" src={element.image} alt={element.name}/>
+            <Card className="text-center">
+              <Card.Header as="h2">{element.name}</Card.Header>
+              <Card.Body>
+                <img
+                  width="400px"
+                  height="400px"
+                  src={element.image}
+                  alt={element.name}
+                />
+                <br />
+                <br />
                 <Card.Text>{element.description}</Card.Text>
                 <Link to="/">
                   <Button variant="primary">Go Back</Button>
